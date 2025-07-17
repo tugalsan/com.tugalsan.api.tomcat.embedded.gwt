@@ -48,27 +48,27 @@
         <dependency>
             <groupId>org.apache.tomcat.embed</groupId>
             <artifactId>tomcat-embed-core</artifactId>
-            <version>9.0.106</version><!-- TODO 10.1.2 java.lang.ClassNotFoundException: org.apache.tomcat.jakarta ee.EE Spec Profile -->
+            <version>9.0.107</version><!-- TODO 10.1.2 java.lang.ClassNotFoundException: org.apache.tomcat.jakarta ee.EE Spec Profile -->
         </dependency>
         <dependency>
             <groupId>org.apache.tomcat.embed</groupId>
             <artifactId>tomcat-embed-jasper</artifactId>
-            <version>9.0.106</version>
+            <version>9.0.107</version>
         </dependency>
         <dependency>
             <groupId>org.apache.tomcat</groupId>
             <artifactId>tomcat-jasper</artifactId>
-            <version>9.0.106</version>
+            <version>9.0.107</version>
         </dependency>
         <dependency>
             <groupId>org.apache.tomcat</groupId>
             <artifactId>tomcat-jasper-el</artifactId>
-            <version>9.0.106</version>
+            <version>9.0.107</version>
         </dependency>
         <dependency>
             <groupId>org.apache.tomcat</groupId>
             <artifactId>tomcat-jsp-api</artifactId>
-            <version>9.0.106</version>
+            <version>9.0.107</version>
         </dependency>
         <dependency>
             <groupId>${project.groupId}</groupId>
@@ -131,7 +131,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.13.0</version>
+                <version>3.14.0</version>
                 <configuration>
                     <release>24</release><!--prop.jdk-->
                     <!--  <enablePreview>true</enablePreview>
